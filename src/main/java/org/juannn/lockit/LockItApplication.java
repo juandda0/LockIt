@@ -10,10 +10,6 @@ public class LockItApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(LockItApplication.class, args);
-        SecureRandom random = new SecureRandom();
-        int password = random.nextInt(1000000000);
-        System.out.println("Contraseña: " + password);
-
     }
 
 }
